@@ -1,0 +1,40 @@
+
+.orders {
+  max-width: 70rem;
+  width: 90%;
+  margin: 0rem auto;
+  animation: orders-appear 1s ease-out forwards;
+  background-color: aliceblue;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+}
+
+.order {
+  padding: 1rem;
+  background-color: rgb(44, 84, 122);
+  color: azure;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.order_details_meals {
+  font-style: italic;
+}
+
+.order_details_price {
+  font-size: 1rem;
+  padding: 0;
+}
+
+@keyframes orders-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
