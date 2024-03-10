@@ -37,7 +37,7 @@ yarn start
 # Support
 
 # Contributing
-- Source Code: [Github](https://github.com/Kika-hash/)
+- Source Code: [Github](https://github.com/Kika-hash/food_app_public)
 
 # Contact information
 
